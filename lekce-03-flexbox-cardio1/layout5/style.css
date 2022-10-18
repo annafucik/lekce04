@@ -20,3 +20,22 @@ nav {
 /* -------------------------------------------- */
 
 
+header, footer{
+	height: 200px;
+}
+
+div{
+	display: flex;
+	height: 500px;
+}
+
+nav{
+	flex-grow: 1;
+}
+article{
+	flex-grow: 3;
+}
+aside{
+	flex-grow: 1;
+	order: 1; 
+}

@@ -19,4 +19,37 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.jedna{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 4;
+}
 
+header, footer {
+	flex-grow: 1;
+	height: 200px;
+}
+article {
+	flex-grow:2;
+	height: 500px;
+}
+
+.main{
+	display: flex;
+}
+
+nav {
+	flex-grow: 1;
+}
+
+.kontejner{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+aside{
+	width: 200px;
+}
+.aplusf{
+	flex-grow: 5;
+}

@@ -20,3 +20,30 @@ nav {
 /* -------------------------------------------- */
 
 
+header, footer {
+	height: 200px;
+}
+article{
+	height: 400px;
+	flex: 2;
+}
+aside{
+	height: 400px;
+	flex: 1;
+}
+.dva {
+display: flex;
+}
+
+nav {
+	height: 800px;
+	flex-grow: 1;
+}
+
+.main{
+	display:flex;
+	
+}
+.jedna{
+	flex-grow: 3;
+}
